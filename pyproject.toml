@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "gamescraper"
 version = "0.1.0"
-description = "A game API"
+description = "A free game type thing."
 authors = ["Bill Fritz <uwbfritz@gmail.com>"]
 readme = "README.md"
 

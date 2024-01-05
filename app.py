@@ -8,7 +8,6 @@ app = Flask(__name__)
 def home():
     response = requests.get('https://www.gamerpower.com/api/giveaways?platform=pc')
     data = response.json()
-    # Filter data to only show type 'game'
     # data = [item for item in data if item['type'] == 'Game']
     return render_template('index.html', data=data)
 
